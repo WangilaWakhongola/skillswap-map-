@@ -1,0 +1,79 @@
+"""
+App initialization files structure:
+
+backend/
+├── apps/
+│   ├── __init__.py
+│   ├── users/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   ├── admin.py
+│   │   └── migrations/
+│   ├── skills/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   ├── admin.py
+│   │   └── migrations/
+│   ├── exchanges/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   ├── admin.py
+│   │   └── migrations/
+│   ├── messaging/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   ├── admin.py
+│   │   ├── consumers.py
+│   │   └── migrations/
+│   └── locations/
+│       ├── __init__.py
+│       ├── models.py
+│       ├── views.py
+│       ├── serializers.py
+│       ├── urls.py
+│       ├── admin.py
+│       └── migrations/
+├── skillswap/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   ├── asgi.py
+│   └── celery.py
+└── manage.py
+
+Execute these commands to create the structure:
+
+# Create apps
+mkdir -p backend/apps/{users,skills,exchanges,messaging,locations}/{migrations}
+
+# Create __init__.py files
+touch backend/apps/__init__.py
+touch backend/apps/users/__init__.py
+touch backend/apps/users/migrations/__init__.py
+touch backend/apps/skills/__init__.py
+touch backend/apps/skills/migrations/__init__.py
+touch backend/apps/exchanges/__init__.py
+touch backend/apps/exchanges/migrations/__init__.py
+touch backend/apps/messaging/__init__.py
+touch backend/apps/messaging/migrations/__init__.py
+touch backend/apps/locations/__init__.py
+touch backend/apps/locations/migrations/__init__.py
+
+# Create frontend structure
+mkdir -p frontend/src/{components,pages,services,hooks,context,assets/{images,fonts}}
+"""
+
+# This file documents the expected project structure
