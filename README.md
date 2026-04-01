@@ -1,6 +1,6 @@
 # SkillSwap-Map 🗺️
 
-A real-time, location-based platform that helps people exchange practical skills within their local communities.
+A real-time,location-based platform that helps people exchange practical skills within their local communities.
 
 ## Overview
 
